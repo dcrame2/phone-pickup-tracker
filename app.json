@@ -2,6 +2,14 @@
   "expo": {
     "name": "phone-pickup-tracker",
     "slug": "phone-pickup-tracker",
+    "extra": {
+      "eas": {
+        "projectId": "448cdde9-9c99-425f-a010-bdef51036642"
+      },
+      "router": {
+        "origin": false
+      }
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,7 +17,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.phone-pickup-tracker"
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +45,7 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "owner": "dcrame2"
   }
 }
